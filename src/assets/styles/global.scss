@@ -1,0 +1,13 @@
+$color: #eee;
+
+body,
+html {
+  background-color: $color;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+img {
+  // 禁止拖动图片
+  -webkit-user-drag: none;
+}
